@@ -152,7 +152,7 @@ fundamentos-programacion-practica-1/
 ### Técnicas aplicadas
 - Ciclos.
 - Arreglos.
-
+.
 
 
 ## 🔧 Ejemplos de Código
