@@ -145,11 +145,11 @@ fundamentos-programacion-practica-1/
 ### Lo que más me costó
 - **la investigacion para resolver los ejercicios 4.2 a 5.5**:
 
-Investigar sobre "for of", "loop" y matrices en programación implicó entender cómo funcionan las estructuras de repetición y cómo se manejan los arreglos, ya que fl "for of" es útil para iterar elementos en colecciones, mientras que las matrices son estructuras clave para almacenar y manipular datos en varios lenguajes. Para ello, revisé conceptos básicos de control de flujo y manipulación de datos.
+I
 ### Lo que más me gustó
 - **La investigacion metodos mas eficientes y simples que sustituyena los elementos basicos que he visto**:
 
-Usar métodos como .map(), .reverse() y .filter() es más eficiente que usar bucles tradicionales como "for of", ya que son más concisos y legibles. .map() transforma elementos, .reverse() invierte el orden de un arreglo y .filter() selecciona elementos según una condición, estos métodos son más declarativos, optimizados internamente y reducen la repetición de código. 
+
 
 ### Técnicas aplicadas
 - Uso de `for` loops para iteraciones
@@ -240,6 +240,6 @@ Este proyecto es parte de las actividades académicas del **Tecnológico de Soft
 
 **⭐ Si te gustó este proyecto, dale una estrella ⭐**
 
-Hecho con 💙 por [Angel Abraham Lugo Saenz] - 2025
+Hecho con 💙 por [Manuel Tello] - 2025
 
 </div>
