@@ -133,7 +133,11 @@ return comprobar = (edad <=17) ? "menor" : (edad >=65) ? "mayor" : "adulto";
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  let factorial = 1;
+   for(let i=1; i <= n; i++){
+    factorial *= i;
+  }
+  return factorial;
 }
 
 /**
