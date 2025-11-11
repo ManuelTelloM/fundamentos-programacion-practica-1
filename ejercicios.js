@@ -277,7 +277,7 @@ function invertirArray(arr) {
  */
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
-  const matriz = [];
+  const matriz = Array.from({length: filas}, () => Array(columnas).fill(0));
   return matriz;
 }
 
