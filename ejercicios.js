@@ -117,7 +117,7 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
-  return "";
+return comprobar = (edad <=17) ? "menor" : (edad >=65) ? "mayor" : "adulto";
 }
 
 // ============================================
