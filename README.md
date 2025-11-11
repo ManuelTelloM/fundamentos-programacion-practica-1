@@ -1,13 +1,11 @@
-#  📘 Fundamentos de Programación - Práctica 1
-
 ## 👨‍💻 Información del Estudiante
 
 - **Nombre:** [Manuel Jesus Tello May]
-- **Matrícula:** [SW2509054]
+- **Matrícula:** []
 - **Grupo:** [B]
 - **Cuatrimestre:** Primer Cuatrimestre
 - **Carrera:** TSU en Desarrollo e Innovación de Software
-- **Profesor:** Jorge Javier Pedrozo Romero.
+- **Profesor:** Jorge Javier Pedrozo Romero
 
 ---
 
@@ -84,9 +82,10 @@ Este repositorio contiene mi solución a la práctica de **Fundamentos de Progra
 └────────────────────────────────────────┘
 ```
 
-![Tests](https://github.com/ManuelTelloM/fundamentos-programacion-practica-1/actions/workflows/test.yml/badge.svg)
+[![Tests](https://github.com/ManuelTelloM/fundamentos-programacion-practica-1/actions/workflows/test.yml/badge.svg)]
 
----
+
+
 
 ## 🚀 Instalación y Uso
 
@@ -144,16 +143,21 @@ fundamentos-programacion-practica-1/
 ## 💡 Aprendizajes Clave
 
 ### Lo que más me costó
-- Al ser la primera vez que estoy trabajandon con e github, al principio se me hizo un poco complicado entender como funcionaba el github pero con forme fui trabajando en esta plataforma me fui adaptando y trbajando de una mejor manera.
+- **la investigacion para resolver los ejercicios 4.2 a 5.5**:
 
+Investigar sobre "for of", "loop" y matrices en programación implicó entender cómo funcionan las estructuras de repetición y cómo se manejan los arreglos, ya que fl "for of" es útil para iterar elementos en colecciones, mientras que las matrices son estructuras clave para almacenar y manipular datos en varios lenguajes. Para ello, revisé conceptos básicos de control de flujo y manipulación de datos.
 ### Lo que más me gustó
-- Conocer como funcjona el github y los diversos comandos que se utilizan para programar.
+- **La investigacion metodos mas eficientes y simples que sustituyena los elementos basicos que he visto**:
+
+Usar métodos como .map(), .reverse() y .filter() es más eficiente que usar bucles tradicionales como "for of", ya que son más concisos y legibles. .map() transforma elementos, .reverse() invierte el orden de un arreglo y .filter() selecciona elementos según una condición, estos métodos son más declarativos, optimizados internamente y reducen la repetición de código. 
 
 ### Técnicas aplicadas
-- Ciclos.
-- Arreglos.
-.
+- Uso de `for` loops para iteraciones
+- Operador módulo `%` para determinar paridad
+- Arrays dinámicos con `.push()`
+- Bucles anidados para matrices
 
+---
 
 ## 🔧 Ejemplos de Código
 
@@ -200,21 +204,16 @@ Este proyecto me prepara para:
 ---
 
 ## 📝 Historial de Commits
-
 ```bash
 # Ver mi historial completo
 git log --oneline --graph --decorate
 ```
 
 **Commits destacados:**
-- `feat: Completar Sección 1 - Variables y tipos de datos`
-- `feat: Implementar ejercicios de condicionales`
-- `feat: Resolver funciones y bucles`
-- `feat: Completar manipulación de arrays`
-- `feat: Finalizar arrays bidimensionales - matrices`
-- `docs: Actualizar README con resultados finales`
+.
 
----
+
+
 
 ## 🤝 Agradecimientos
 
@@ -241,6 +240,6 @@ Este proyecto es parte de las actividades académicas del **Tecnológico de Soft
 
 **⭐ Si te gustó este proyecto, dale una estrella ⭐**
 
-Hecho con 💙 por [Manuel Tello May]
+Hecho con 💙 por [Angel Abraham Lugo Saenz] - 2025
 
 </div>
