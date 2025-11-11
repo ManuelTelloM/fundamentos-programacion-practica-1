@@ -308,7 +308,7 @@ function sumaMatriz(matriz) {
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  return [];
+  return matriz.find((fila, i) => i === indiceFila);
 }
 
 /**
