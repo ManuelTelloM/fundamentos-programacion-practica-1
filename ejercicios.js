@@ -290,7 +290,13 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  let suma = 0;
+  for(let fila of matriz){
+    for(let valor of fila){
+      suma = suma +valor;
+    }
+  }
+  return suma;
 }
 
 /**
