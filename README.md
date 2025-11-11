@@ -7,7 +7,7 @@
 - **Grupo:** [B]
 - **Cuatrimestre:** Primer Cuatrimestre
 - **Carrera:** TSU en Desarrollo e Innovación de Software
-- **Profesor:** Jorge Javier Pedrozo Romero
+- **Profesor:** Jorge Javier Pedrozo Romero.
 
 ---
 
