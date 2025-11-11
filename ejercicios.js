@@ -320,8 +320,7 @@ function obtenerFila(matriz, indiceFila) {
  */
 function obtenerColumna(matriz, indiceColumna) {
   // TODO: Extrae todos los elementos de la columna indicada
-  const columna = [];
-  return columna;
+  return matriz.map(fila => fila[indiceColumna]);
 }
 
 /**
