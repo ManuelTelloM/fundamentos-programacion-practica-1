@@ -143,7 +143,7 @@ fundamentos-programacion-practica-1/
 ## 💡 Aprendizajes Clave
 
 ### Lo que más me costó
-- **la investigacion para resolver los ejercicios 4.2 a 5.5**:
+- 
 
 I
 ### Lo que más me gustó
