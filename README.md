@@ -144,20 +144,18 @@ fundamentos-programacion-practica-1/
 ## 💡 Aprendizajes Clave
 
 ### Lo que más me costó
-- 
+- Al ser la primera vez que estoy trabajandon con e github, al principio se me hizo un poco complicado entender como funcionaba el github pero con forme fui trabajando en esta plataforma me fui adaptando y trbajando de una mejor manera.
 
 I
 ### Lo que más me gustó
-- **La investigacion metodos mas eficientes y simples que sustituyena los elementos basicos que he visto**:
+- Conocer como funcjona el github y los diversos comandos que se utilizan para programar.
 
 
 
 ### Técnicas aplicadas
-- Uso de `for` loops para iteraciones
-- Operador módulo `%` para determinar paridad
-- Arrays dinámicos con `.push()`
-- Bucles anidados para matrices
-
+- Ciclos.
+- Arreglos.
+.
 ---
 
 ## 🔧 Ejemplos de Código
