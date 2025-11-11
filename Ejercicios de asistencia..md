@@ -35,7 +35,7 @@ B =
 0 & -2 & 0\\
 0 & 0 & 5
 \end{pmatrix}
-$$ 
+$$
 
 ---
 
@@ -71,15 +71,15 @@ $$
 A =
 \begin{pmatrix}
 2 & -1 \\
-3 & 4 
+3 & 4
 \end{pmatrix}
 $$
 
 $$
 B =
 \begin{pmatrix}
-5 & 2  \\
--1 & 3 
+5 & 2 \\
+-1 & 3
 \end{pmatrix}
 $$
 
@@ -96,28 +96,31 @@ $$
 $$
 A + B =
 \begin{pmatrix}
-6 & 1 \\
-2 & 7 
+7 & 1 \\
+2 & 7
 \end{pmatrix}
 $$
+
 
 ---
+
+
 **Resta de 2A - B**
 
-La resta de matrices del mismo tamaño se realiza **restando cada elemento correspondiente  de ambas matrices**:
+La resta de matrices del mismo tamaño se realiza **restando cada elemento correspondiente de ambas matrices**:
 
 $$
 2A =
 \begin{pmatrix}
-2(2)  & -1 + 2 \\
-3 (2) & 4 (2)
+2(2) & 2(-1) \\
+2(3) & 2(4)
 \end{pmatrix}
 $$
 
 $$
 2A =
 \begin{pmatrix}
-4  & -2 \\
+4 & -2 \\
 6 & 8
 \end{pmatrix}
 $$
@@ -125,39 +128,40 @@ $$
 $$
 2A-B =
 \begin{pmatrix}
-4-5  & -2 -2 \\
--1 -6& 8-3
+4-5 & -2 -2 \\
+6 - (-1) & 8-3
 \end{pmatrix}
 $$
 
 $$
 2A-B =
 \begin{pmatrix}
--1  & -4 \\
--7 & 5
+-1 & -4 \\
+7 & 5
 \end{pmatrix}
 $$
 
 ---
 **Multiplicación de AB**
 
-La multiplicación de matrices del mismo tamaño se realiza **dividiendo cada elemento de la primera matriz por los dos primeros elementos de la segunda matriz y despues por los otros elementos siguientes (se toman como columnas)**:
-
+La multiplicación de matrices se realiza multiplicando cada **fila** de la primera matriz por cada **columna** de la segunda matriz, y sumando los productos.
 
 AB = 2(5) + -1(-1) = 10 + 1 = 11
-AB = 2(2) + -1(3) = 4 + (-3) = -12
+AB = 2(2) + -1(3) = 4 + (-3) = 1
 AB = 3(5) + 4(-1) = 15 + (-4) = 11
 AB = 3(2) + 4(3) = 6 + 12 = 18
 
 $$
 AB =
 \begin{pmatrix}
-11  & -12 \\
+11 & 1 \\
 11 & 18
 \end{pmatrix}
 $$
 
+
 ---
+
 **Multiplicación de BA**
 
 BA = 5(2) + 2(3) = 10 + 6 = 16
@@ -168,37 +172,39 @@ BA = -1(-1) + 3(4) = 1 + 12 = 13
 $$
 BA =
 \begin{pmatrix}
-16  & 3 \\
+16 & 3 \\
 7 & 13
 \end{pmatrix}
 $$
 
 ---
+
 **Transpuesta de A**
 
 $$
 A^T =
 \begin{pmatrix}
-2  & 3 \\
+2 & 3 \\
 -1 & 4
 \end{pmatrix}
 $$
 
 ---
-## 3. División de tres matrices.
+
+## 3. Comprobación de la Propiedad Asociativa (AB)C = A(BC).
 
 $$
-A =                                                                        
+A =
 \begin{pmatrix}
-1  & 2 \\
+1 & 2 \\
 3 & 4
-\end{pmatrix},                   
+\end{pmatrix},
 $$
 
 $$
 B =
 \begin{pmatrix}
-2  & 0 \\
+2 & 0 \\
 1 & 3
 \end{pmatrix}
 $$
@@ -212,6 +218,7 @@ C =
 $$
 
 ----
+
 **Resolver (AB)C = A(BC)**
 
 
@@ -223,12 +230,13 @@ AB = 3(0) + 4(3) = 0 + 12 = 12
 $$
 AB =
 \begin{pmatrix}
-4 &    6 \\
-10 &  12
+4 & 6 \\
+10 & 12
 \end{pmatrix}
 $$
 
 ----
+
 **(AB)C**
 
 (AB)C = 4(1) + 6(0) = 4 + 0 = 4
@@ -239,61 +247,58 @@ $$
 $$
 (AB)C =
 \begin{pmatrix}
-4 &    16 \\
-10 &  34
+4 & 16 \\
+10 & 34
 \end{pmatrix}
 $$
 
 ---
+
 **BC**
 
-BC = 2(1) + 0(0) =  2 + 0 = 2 
-BC = 2(1) + 0(2) = 2 + 0= 2
+BC = 2(1) + 0(0) = 2 + 0 = 2
+BC = 2(1) + 0(2) = 2 + 0 = 2
 BC = 1(1) + 3(0) = 1 + 0 = 1
 BC = 1(1) + 3(2) = 1 + 6 = 7
 
 $$
 BC =
 \begin{pmatrix}
-2 &    2 \\
-1 &  7
+2 & 2 \\
+1 & 7
 \end{pmatrix}
 $$
 
 ---
+
 **A(BC)**
 
-A(BC) = 1(2) + 2(1) = 2 + 2 = 2
-A(BC)  = 1(2) + 2(7) = 2 + 14 = 16
-A(BC)  = 3(2) + 4(1) = 6 + 4 = 10
-A(BC)  = 3(2) + 4(7) = 6 + 28 = 34
+A(BC) = 1(2) + 2(1) = 2 + 2 = 4
+A(BC) = 1(2) + 2(7) = 2 + 14 = 16
+A(BC) = 3(2) + 4(1) = 6 + 4 = 10
+A(BC) = 3(2) + 4(7) = 6 + 28 = 34
 
 $$
-A(BC) = 
+A(BC) =
 \begin{pmatrix}
-4 &   16 \\
-10 &  34
+4 & 16 \\
+10 & 34
 \end{pmatrix}
 $$
 
 ---
-Con esto comprobamos que  **(AB)C = A(BC)** si son iguales.
+
+Con esto comprobamos que **(AB)C = A(BC)**.
 
 $$
 (AB)C =
 \begin{pmatrix}
-4 &    16 \\
-10 &  34
-\end{pmatrix}   =                                            
-$$
-
-$$
-A(BC) = 
+4 & 16 \\
+10 & 34
+\end{pmatrix} =
+A(BC) =
 \begin{pmatrix}
-4 &   16 \\
-10 &  34
+4 & 16 \\
+10 & 34
 \end{pmatrix}
 $$
-
----
-
