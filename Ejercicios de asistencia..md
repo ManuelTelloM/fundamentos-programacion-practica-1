@@ -27,6 +27,7 @@ $$
 
 ---
 **Matriz diagonal**, porque los elementos fuera de la diagonal son 0
+
 $$
 B =
 \begin{pmatrix}
@@ -39,6 +40,7 @@ $$
 ---
 
 **Matriz simétrica**, porque los elementos respecto a la diagonal son idénticos.
+
 $$
 C =
 \begin{pmatrix}
@@ -50,6 +52,7 @@ $$
 
 ---
 **Matriz triangular superior**, porque los elementos debajo de la diagonal son 0.
+
 $$
 D =
 \begin{pmatrix}
@@ -102,6 +105,7 @@ $$
 **Resta de 2A - B**
 
 La resta de matrices del mismo tamaño se realiza **restando cada elemento correspondiente  de ambas matrices**:
+
 $$
 2A =
 \begin{pmatrix}
@@ -171,6 +175,7 @@ $$
 
 ---
 **Transpuesta de A**
+
 $$
 A^T =
 \begin{pmatrix}
@@ -181,7 +186,6 @@ $$
 
 ---
 ## 3. División de tres matrices.
-
 
 $$
 A =                                                                        
@@ -231,6 +235,7 @@ $$
 (AB)C = 4(1) + 6(2) = 4 + 12 = 16
 (AB)C = 10(1) + 12(0) = 10 + 0 = 10
 (AB)C = 10(1) + 12(2) = 10 + 24 = 34
+
 $$
 (AB)C =
 \begin{pmatrix}
@@ -246,6 +251,7 @@ BC = 2(1) + 0(0) =  2 + 0 = 2
 BC = 2(1) + 0(2) = 2 + 0= 2
 BC = 1(1) + 3(0) = 1 + 0 = 1
 BC = 1(1) + 3(2) = 1 + 6 = 7
+
 $$
 BC =
 \begin{pmatrix}
@@ -261,6 +267,7 @@ A(BC) = 1(2) + 2(1) = 2 + 2 = 2
 A(BC)  = 1(2) + 2(7) = 2 + 14 = 16
 A(BC)  = 3(2) + 4(1) = 6 + 4 = 10
 A(BC)  = 3(2) + 4(7) = 6 + 28 = 34
+
 $$
 A(BC) = 
 \begin{pmatrix}
@@ -271,6 +278,7 @@ $$
 
 ---
 Con esto comprobamos que  **(AB)C = A(BC)** si son iguales.
+
 $$
 (AB)C =
 \begin{pmatrix}
