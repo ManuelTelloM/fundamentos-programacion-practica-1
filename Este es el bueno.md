@@ -1,17 +1,5 @@
 ﻿
-# # Tecnológico de Software
-
-## Materia: Fundamentos de Álgebra  
-**Alumno:** Manuel Jesús Tello May  
-**Grupo:** 1B  
-**Actividad #16:** Matrices  
-**Profesor:** Jorge Pedrozo  
-
----
-
-## 1. Identificación de matrices
-
-Tecnológico de Software
+# Tecnológico de Software
 
 ## Materia: Fundamentos de Álgebra  
 ### Alumno: Manuel Jesús Tello May  
