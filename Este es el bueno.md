@@ -1,5 +1,4 @@
-﻿
-# Tecnológico de Software
+﻿# Tecnológico de Software
 
 ## Materia: Fundamentos de Álgebra  
 ### Alumno: Manuel Jesús Tello May  
